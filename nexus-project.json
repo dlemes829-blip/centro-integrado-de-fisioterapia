@@ -84,6 +84,20 @@
       "status": "done",
       "detail": "https://centro-integrado-de-fisioterapia-becbba30.onrender.com",
       "at": "2026-06-04T16:22:22.768Z"
+    },
+    {
+      "id": "e6d3946b",
+      "label": "GitHub preparado",
+      "status": "done",
+      "detail": "Repositorio centro-integrado-de-fisioterapia enviado.",
+      "at": "2026-06-04T19:30:48.712Z"
+    },
+    {
+      "id": "e756c0c5",
+      "label": "Deploy preparado",
+      "status": "done",
+      "detail": "https://centro-integrado-de-fisioterapia-becbba30.onrender.com",
+      "at": "2026-06-04T19:30:48.737Z"
     }
   ],
   "validation": {
@@ -133,7 +147,7 @@
     "tsconfig.json",
     "vite.config.ts"
   ],
-  "updatedAt": "2026-06-04T16:22:22.772Z",
+  "updatedAt": "2026-06-04T19:30:48.739Z",
   "github": {
     "prepared": true,
     "pushed": true,
@@ -182,7 +196,7 @@
         "command": "git commit -m Initial Agent Nexus project",
         "ok": true,
         "status": 0,
-        "output": "[main 7b0678a] Initial Agent Nexus project\n 1 file changed, 104 insertions(+), 1 deletion(-)"
+        "output": "[main f191b6f] Initial Agent Nexus project\n 1 file changed, 36 insertions(+), 11 deletions(-)"
       },
       {
         "command": "git branch -M main",
@@ -218,7 +232,7 @@
         "command": "git push -u origin HEAD:main",
         "ok": true,
         "status": 0,
-        "output": "branch 'main' set up to track 'https://x-access-token:[redacted]@github.com/dlemes829-blip/centro-integrado-de-fisioterapia.git/main'.\nTo https://github.com/dlemes829-blip/centro-integrado-de-fisioterapia.git\n   147a30e..7b0678a  HEAD -> main"
+        "output": "branch 'main' set up to track 'https://x-access-token:[redacted]@github.com/dlemes829-blip/centro-integrado-de-fisioterapia.git/main'.\nTo https://github.com/dlemes829-blip/centro-integrado-de-fisioterapia.git\n   7b0678a..f191b6f  HEAD -> main"
       },
       {
         "command": "git remote get-url origin",
@@ -230,6 +244,14 @@
   },
   "liveUrl": "https://centro-integrado-de-fisioterapia-becbba30.onrender.com",
   "deployments": [
+    {
+      "id": "srv-d8gqcf6gvqtc73f4cu8g",
+      "provider": "render",
+      "publicUrl": "https://centro-integrado-de-fisioterapia-becbba30.onrender.com",
+      "dashboardUrl": "https://dashboard.render.com/static/srv-d8gqcf6gvqtc73f4cu8g",
+      "status": "existing",
+      "createdAt": "2026-06-04T19:30:48.737Z"
+    },
     {
       "id": "srv-d8gqcf6gvqtc73f4cu8g",
       "provider": "render",
