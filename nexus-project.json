@@ -1,0 +1,114 @@
+{
+  "id": "proj_centro-integrado-de-fisioterapia_becbba30",
+  "name": "Centro Integrado de Fisioterapia",
+  "kind": "web",
+  "status": "created",
+  "summary": "WEB criado com Supabase, workspace editavel, preview, ZIP e testes de qualidade.",
+  "plan": [
+    "Entender o pedido: Crie uma landing page profissional para a empresa abaixo:\n\nNome da empresa: Centro Integrado de Fisioterapia\nSegmento: Fisioterapia, Pilates clínico e RPG\nLocalização: Ponta Grossa/PR\nEndereço: Av. Monteiro Lobato, 270 - Jardim Carvalho, Ponta Grossa - PR, 84015-480\nTelefone/WhatsApp: (42) 99803-0362\nNota Google: 5.0\nQuantidade de avaliações: 11\nStatus digital: já possui presença local, mas precisa de página mais profissional\nObjetivo principal: gerar contatos pelo WhatsApp\nTom: acolhedor, técnico, moderno e direto",
+    "Preparar pesquisa externa, Maps, reputação e concorrentes quando houver empresa/local",
+    "Modelar o produto como Landing page para Fisioterapia, Pilates clínico e RPG",
+    "Criar estrutura do projeto com README, scripts, ferramentas e organização de pastas",
+    "Adicionar Supabase como banco padrao com schema SQL e env",
+    "Gerar interface principal e dados iniciais",
+    "Criar testes de smoke e validar ate 5 ciclos",
+    "Preparar preview, editor de arquivos, publish e ZIP"
+  ],
+  "events": [
+    {
+      "id": "ecd88235",
+      "label": "Pedido recebido",
+      "status": "done",
+      "detail": "Crie uma landing page profissional para a empresa abaixo:\n\nNome da empresa: Centro Integrado de Fisioterapia\nSegmento: Fisioterapia, Pilates clínico e RPG\nLocalização: Ponta Grossa/PR\nEndereço: Av. Monteiro Lobato, 270 - Jardim Carvalho, Ponta Grossa - PR, 84015-480\nTelefone/WhatsApp: (42) 99803-0362\nNota Google: 5.0\nQuantidade de avaliações: 11\nStatus digital: já possui presença local, mas precisa de página mais profissional\nObjetivo principal: gerar contatos pelo WhatsApp\nTom: acolhedor, técnico, moderno e direto",
+      "at": "2026-06-03T21:57:19.871Z"
+    },
+    {
+      "id": "0616ec52",
+      "label": "Plano montado",
+      "status": "done",
+      "detail": "Entender o pedido: Crie uma landing page profissional para a empresa abaixo:\n\nNome da empresa: Centro Integrado de Fisioterapia\nSegmento: Fisioterapia, Pilates clínico e RPG\nLocalização: Ponta Grossa/PR\nEndereço: Av. Monteiro Lobato, 270 - Jardim Carvalho, Ponta Grossa - PR, 84015-480\nTelefone/WhatsApp: (42) 99803-0362\nNota Google: 5.0\nQuantidade de avaliações: 11\nStatus digital: já possui presença local, mas precisa de página mais profissional\nObjetivo principal: gerar contatos pelo WhatsApp\nTom: acolhedor, técnico, moderno e direto | Preparar pesquisa externa, Maps, reputação e concorrentes quando houver empresa/local | Modelar o produto como Landing page para Fisioterapia, Pilates clínico e RPG | Criar estrutura do projeto com README, scripts, ferramentas e organização de pastas | Adicionar Supabase como banco padrao com schema SQL e env | Gerar interface principal e dados iniciais | Criar testes de smoke e validar ate 5 ciclos | Preparar preview, editor de arquivos, publish e ZIP",
+      "at": "2026-06-03T21:57:19.871Z"
+    },
+    {
+      "id": "d9858c10",
+      "label": "Workspace criado",
+      "status": "done",
+      "detail": "proj_centro-integrado-de-fisioterapia_becbba30",
+      "at": "2026-06-03T21:57:19.871Z"
+    },
+    {
+      "id": "1b641404",
+      "label": "Pesquisa externa preparada",
+      "status": "done",
+      "detail": "Google Search, Google Maps, Concorrentes locais, WhatsApp QA",
+      "at": "2026-06-03T21:57:19.872Z"
+    },
+    {
+      "id": "20113af2",
+      "label": "Arquivos gerados",
+      "status": "done",
+      "detail": "24 arquivos preparados",
+      "at": "2026-06-03T21:57:19.951Z"
+    },
+    {
+      "id": "9a7ea432",
+      "label": "Testes executados",
+      "status": "done",
+      "detail": "1/5 ciclo(s)",
+      "at": "2026-06-03T21:57:20.132Z"
+    },
+    {
+      "id": "651bddf9",
+      "label": "Preview e ZIP prontos",
+      "status": "done",
+      "detail": "Projeto disponivel para abrir, editar e exportar",
+      "at": "2026-06-03T21:57:20.132Z"
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "attempts": 1,
+    "repaired": false,
+    "logs": [
+      {
+        "attempt": 1,
+        "stage": "smoke",
+        "command": "C:\\Program Files\\nodejs\\node.exe tests/smoke.test.mjs",
+        "ok": true,
+        "status": 0,
+        "output": "Landing page Replit-like smoke ok",
+        "repairedFiles": []
+      }
+    ]
+  },
+  "downloadUrl": "/api/agent-nexus/projects/proj_centro-integrado-de-fisioterapia_becbba30/download",
+  "previewUrl": "/api/agent-nexus/projects/proj_centro-integrado-de-fisioterapia_becbba30/preview",
+  "createdAt": "2026-06-03T21:57:20.132Z",
+  "files": [
+    ".env.example",
+    ".gitignore",
+    "docs/architecture.md",
+    "docs/delivery-checklist.md",
+    "docs/research.md",
+    "index.html",
+    "nexus-tools.json",
+    "package.json",
+    "public/index.html",
+    "README.md",
+    "README.txt",
+    "rodar-local.bat",
+    "src/App.tsx",
+    "src/components/floating-whatsapp.tsx",
+    "src/components/ui/button.tsx",
+    "src/index.css",
+    "src/lib/business-data.ts",
+    "src/lib/research.ts",
+    "src/main.tsx",
+    "src/pages/home.tsx",
+    "supabase/schema.sql",
+    "tests/smoke.test.mjs",
+    "tsconfig.json",
+    "vite.config.ts"
+  ],
+  "updatedAt": "2026-06-03T21:57:20.144Z"
+}
