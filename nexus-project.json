@@ -2,7 +2,7 @@
   "id": "proj_centro-integrado-de-fisioterapia_becbba30",
   "name": "Centro Integrado de Fisioterapia",
   "kind": "web",
-  "status": "created",
+  "status": "deployed",
   "summary": "WEB criado com Supabase, workspace editavel, preview, ZIP e testes de qualidade.",
   "plan": [
     "Entender o pedido: Crie uma landing page profissional para a empresa abaixo:\n\nNome da empresa: Centro Integrado de Fisioterapia\nSegmento: Fisioterapia, Pilates clínico e RPG\nLocalização: Ponta Grossa/PR\nEndereço: Av. Monteiro Lobato, 270 - Jardim Carvalho, Ponta Grossa - PR, 84015-480\nTelefone/WhatsApp: (42) 99803-0362\nNota Google: 5.0\nQuantidade de avaliações: 11\nStatus digital: já possui presença local, mas precisa de página mais profissional\nObjetivo principal: gerar contatos pelo WhatsApp\nTom: acolhedor, técnico, moderno e direto",
@@ -70,6 +70,20 @@
       "status": "done",
       "detail": "Repositorio centro-integrado-de-fisioterapia enviado.",
       "at": "2026-06-04T16:22:03.951Z"
+    },
+    {
+      "id": "c5a30b01",
+      "label": "GitHub preparado",
+      "status": "done",
+      "detail": "Repositorio centro-integrado-de-fisioterapia enviado.",
+      "at": "2026-06-04T16:22:20.714Z"
+    },
+    {
+      "id": "f85da138",
+      "label": "Deploy preparado",
+      "status": "done",
+      "detail": "https://centro-integrado-de-fisioterapia-becbba30.onrender.com",
+      "at": "2026-06-04T16:22:22.768Z"
     }
   ],
   "validation": {
@@ -119,7 +133,7 @@
     "tsconfig.json",
     "vite.config.ts"
   ],
-  "updatedAt": "2026-06-04T16:22:03.957Z",
+  "updatedAt": "2026-06-04T16:22:22.772Z",
   "github": {
     "prepared": true,
     "pushed": true,
@@ -144,7 +158,7 @@
         "command": "git init",
         "ok": true,
         "status": 0,
-        "output": "Initialized empty Git repository in C:/Users/danie/OneDrive/nexus-v4-final/nexus/engines/runtime/projects/proj_centro-integrado-de-fisioterapia_becbba30/.git/"
+        "output": "Reinitialized existing Git repository in C:/Users/danie/OneDrive/nexus-v4-final/nexus/engines/runtime/projects/proj_centro-integrado-de-fisioterapia_becbba30/.git/"
       },
       {
         "command": "git config user.name Agent Nexus",
@@ -162,13 +176,13 @@
         "command": "git add .",
         "ok": true,
         "status": 0,
-        "output": "warning: in the working copy of '.env.example', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'GITHUB_READY.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'README.txt', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/architecture.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/delivery-checklist.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/research.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'nexus-project.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'nexus-tools.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'public/index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'rodar-local.bat', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/App.tsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/components/floating-whatsapp.tsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/components/ui/button.tsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/lib/business-data.ts', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/lib/research.ts', LF will be replaced by CRLF the next time Git touches it\nwar..."
+        "output": "warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'GITHUB_READY.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'nexus-project.json', LF will be replaced by CRLF the next time Git touches it"
       },
       {
         "command": "git commit -m Initial Agent Nexus project",
         "ok": true,
         "status": 0,
-        "output": "[master (root-commit) 147a30e] Initial Agent Nexus project\n 26 files changed, 871 insertions(+)\n create mode 100644 .env.example\n create mode 100644 .gitignore\n create mode 100644 GITHUB_READY.md\n create mode 100644 README.md\n create mode 100644 README.txt\n create mode 100644 docs/architecture.md\n create mode 100644 docs/delivery-checklist.md\n create mode 100644 docs/research.md\n create mode 100644 index.html\n create mode 100644 nexus-project.json\n create mode 100644 nexus-tools.json\n create mode 100644 package.json\n create mode 100644 public/index.html\n create mode 100644 rodar-local.bat\n create mode 100644 src/App.tsx\n create mode 100644 src/components/floating-whatsapp.tsx\n create mode 100644 src/components/ui/button.tsx\n create mode 100644 src/index.css\n create mode 100644 src/lib/business-data.ts\n create mode 100644 src/lib/research.ts\n create mode 100644 src/main.tsx\n create mode 100644 src/pages/home.tsx\n create mode 100644 supabase/schema.sql\n create mode 100644 tests/smoke.test.mjs\n create mode 100644 tsconfig.json\n create mode 100644 vite.config.ts"
+        "output": "[main 7b0678a] Initial Agent Nexus project\n 1 file changed, 104 insertions(+), 1 deletion(-)"
       },
       {
         "command": "git branch -M main",
@@ -185,17 +199,17 @@
       {
         "command": "GitHub API create repository",
         "ok": true,
-        "status": 201,
-        "output": "Repository created: https://github.com/dlemes829-blip/centro-integrado-de-fisioterapia"
+        "status": 422,
+        "output": "Repository already exists or name is reserved: https://github.com/dlemes829-blip/centro-integrado-de-fisioterapia"
       },
       {
         "command": "git remote",
         "ok": true,
         "status": 0,
-        "output": ""
+        "output": "origin"
       },
       {
-        "command": "git remote add origin https://github.com/dlemes829-blip/centro-integrado-de-fisioterapia.git",
+        "command": "git remote set-url origin https://github.com/dlemes829-blip/centro-integrado-de-fisioterapia.git",
         "ok": true,
         "status": 0,
         "output": ""
@@ -204,7 +218,7 @@
         "command": "git push -u origin HEAD:main",
         "ok": true,
         "status": 0,
-        "output": "branch 'main' set up to track 'https://x-access-token:[redacted]@github.com/dlemes829-blip/centro-integrado-de-fisioterapia.git/main'.\nTo https://github.com/dlemes829-blip/centro-integrado-de-fisioterapia.git\n * [new branch]      HEAD -> main"
+        "output": "branch 'main' set up to track 'https://x-access-token:[redacted]@github.com/dlemes829-blip/centro-integrado-de-fisioterapia.git/main'.\nTo https://github.com/dlemes829-blip/centro-integrado-de-fisioterapia.git\n   147a30e..7b0678a  HEAD -> main"
       },
       {
         "command": "git remote get-url origin",
@@ -213,5 +227,16 @@
         "output": "https://github.com/dlemes829-blip/centro-integrado-de-fisioterapia.git"
       }
     ]
-  }
+  },
+  "liveUrl": "https://centro-integrado-de-fisioterapia-becbba30.onrender.com",
+  "deployments": [
+    {
+      "id": "srv-d8gqcf6gvqtc73f4cu8g",
+      "provider": "render",
+      "publicUrl": "https://centro-integrado-de-fisioterapia-becbba30.onrender.com",
+      "dashboardUrl": "https://dashboard.render.com/static/srv-d8gqcf6gvqtc73f4cu8g",
+      "status": "created",
+      "createdAt": "2026-06-04T16:22:22.768Z"
+    }
+  ]
 }
